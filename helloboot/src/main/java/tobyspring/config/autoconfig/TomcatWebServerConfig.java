@@ -11,5 +11,4 @@ public class TomcatWebServerConfig {
     public ServletWebServerFactory servletWebServerFactory() {
         return new TomcatServletWebServerFactory();
     }
-
 }

@@ -6,8 +6,8 @@ import tobyspring.config.MyAutoConfiguration;
 
 @MyAutoConfiguration
 public class DispatcherServletConfig {
-        @Bean
-        public DispatcherServlet dispatcherServlet() {
+    @Bean
+    public DispatcherServlet dispatcherServlet() {
             return new DispatcherServlet();
         }
 }
